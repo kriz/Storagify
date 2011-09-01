@@ -13,3 +13,10 @@ TODO
 
 +	Better documentation
 +	MIT and GPL Dual License
+
+CREDITS
+-------
+
+Anyone that uses this plugin, I would much appreciate it if you emailed me (at ethankr@comcast.net) the URL of the site you are going to use Storagify on and (optionally) a logo for your site that I may use on Storagify's website when I create it. 
+
+Thank you.
