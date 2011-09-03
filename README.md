@@ -13,7 +13,6 @@ Todo
 ----
 
 +	Better documentation
-+	MIT and GPL Dual License
 
 Credits
 -------
