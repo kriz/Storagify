@@ -1,0 +1,107 @@
+<style type="text/css">
+	
+	html,body{
+		background:whiteSmoke;
+	}
+	
+	.container.storagify{
+		padding-top:15px;
+	}
+	
+	.container h2,
+	.container h1{
+		text-align:center;
+	}
+	
+	.container.storagify{
+		text-align:center;
+	}
+	
+	.container .buttons{
+		margin:0 auto;
+	}
+	
+	.container h2.future{
+		padding-bottom:35px;
+	}
+	
+	.container .storagify-header,
+	.example{
+		margin-bottom:35px;
+	}
+	
+	.container .buttons a:nth-child(2){
+		margin-left:20px;
+	}
+	
+	.container .storagify-header h2.awesome{
+		padding-top:20px;
+	}
+	
+	code{
+		font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+		color: #52595D;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		border: 1px solid #CCC;
+		background-color: #F9F9F9;
+		padding: 0px 3px;
+		display: inline-block;
+	}
+	
+	
+	.example h2{
+		text-align:left;
+		margin-bottom:10px;
+	}
+	
+	.usage{
+		text-align:left;
+	}
+	
+	.usage h2,
+	.usage h3{
+		text-align:left;
+	}
+	
+	.usage h3 span{
+		font-style:2em;
+	}
+	
+	.buttons .gitbuttons{
+		margin-bottom:20px;
+	}
+	
+	.buttons .siteButtons{
+		margin-bottom:35px;
+	}
+	
+	.storagify-usage-header{
+		margin-bottom:10px;
+	}
+	
+	.storagify-done-instructions{
+		margin-top:10px;
+	}
+	
+	code.instructions{
+		margin-bottom:15px;
+	}
+	
+	.buttons{
+		text-align:left;
+	}
+	
+	.usage{
+		padding-bottom:15px;
+	}
+	
+	
+	h3.me-too{
+		text-align:left;
+	}
+</style>
