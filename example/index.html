@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Storagify, Simple HTML5 Page Edits</title>
+	
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link rel="stylesheet" type="text/css" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.2.0.css" media="all" />
+	
+	<style type="text/css">
+		
+		html,body{
+			background:whiteSmoke;
+		}
+		
+		.container.storagify{
+			padding-top:15px;
+		}
+		
+		.container h2,
+		.container h1{
+			text-align:center;
+		}
+		
+		.container.storagify{
+			text-align:center;
+		}
+		
+		.container .buttons{
+			margin:0 auto;
+		}
+		
+		.container h2.future{
+			padding-bottom:35px;
+		}
+		
+		.container .storagify-header,
+		.example{
+			margin-bottom:35px;
+		}
+		
+		.container .buttons a:nth-child(2){
+			margin-left:20px;
+		}
+		
+		.container .storagify-header h2.awesome{
+			padding-top:20px;
+		}
+		
+		code{
+			font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+			color: #52595D;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			border: 1px solid #CCC;
+			background-color: #F9F9F9;
+			padding: 0px 3px;
+			display: inline-block;
+		}
+		
+		
+		.example h2{
+			text-align:left;
+			margin-bottom:10px;
+		}
+		
+		.usage{
+			text-align:left;
+		}
+		
+		.usage h2,
+		.usage h3{
+			text-align:left;
+		}
+		
+		.usage h3 span{
+			font-style:2em;
+		}
+		
+		.buttons .gitbuttons{
+			margin-bottom:20px;
+		}
+		
+		.buttons .siteButtons{
+			margin-bottom:35px;
+		}
+		
+		.storagify-usage-header{
+			margin-bottom:10px;
+		}
+		
+		.storagify-done-instructions{
+			margin-top:10px;
+		}
+		
+		code.instructions{
+			margin-bottom:15px;
+		}
+		
+		.buttons{
+			text-align:left;
+		}
+		
+		.usage{
+			padding-bottom:15px;
+		}
+		
+		
+		h3.me-too{
+			text-align:left;
+		}
+	</style>
+</head>
+<body>
+	<div class="container storagify">
+		<div class="storagify-header">
+			<img src="images/storagify-logo.png" alt="Storagify, Simple HTML5 Page Edits" />
+			<h2 class="awesome">Simple HTML5 page Edits. Storagify uses the new HTML5 <code>contenteditable</code> attribute and <code>localStorage</code> to bring you HTML5 awesomeness.</h2>
+		</div>
+		<div class="example">
+			<h2>I am an example, click me!</h2>
+		    <p class="editable"><b>So am I, click me too!</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctu.</p>
+		<h3 class="me-too" id="refresh">I'm another example. Go ahead, click me to change my text, click somewhere random on the page then refresh the browser.<span style="font-size:21px;"> My text will still say what you just changed it too a few seconds ago!</span></h3><h3 class="me-too">Now try this...<br /><br /></h3><h3 class="me-too" id="quit">Go ahead, click me to change my text again then click somewhere random on the page. After that, quit your browser, that's right quit it! Next, come back to this page ... <span style="font-size:21px;">notice how my text is still what you just changed it too!</span> </h3>
+		</div>
+		<div class="usage">
+			<h2 class="storagify-usage-header">Usage</h2>
+			<h3>First include the latest version of jQuery</h3>
+			<code class="instructions">&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"&gt;&lt;/script&gt;</code>
+			<h3>Next, download and include Storagify</h3>
+			<code class="instructions">&lt;script src="/path/to/jquery.storagify.min.js"&gt;&lt;/script&gt;</code>
+			<h3>Last but not least, call Storagify on whatever elements you wish to editable.</h3>
+			<code class="instructions">$('#theElement').storagify('storageKey');</code>
+			<h2 class="storagify-done-instructions">That's it! Have Fun!</h2>
+		</div>
+		<div class="buttons">
+			<div class="gitbuttons">
+				<a class="btn large primary github" href="https://github.com/ekdevdes/Storagify">Check it out on github</a>
+				<a href="https://github.com/ekdevdes/Storagify" class="btn large">Fork it on Github</a>
+			</div>
+			<div class="siteButtons">
+				<a href="http://ek.alphaschildren.org/storagify/Storagify/jquery.storagify.js" class="btn small github">Download Uncompressed Source <b>4+ KB</b> &darr;</a>
+				<a href="http://ek.alphaschildren.org/storagify/Storagify/jquery.storagify.min.js" class="btn small github">Download Compressed Source <b>4 KB</b> &darr;</a>
+			</div>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ek.alphaschildren.org/storagify/Storagify/jquery.storagify.min.js"></script>
+	<script type="text/javascript">
+		$('p.editable').storagify('exampleParagraph');
+		$('.example h2').storagify('exampleHeader');
+		$('#refresh').storagify('resfreshText');
+		$('#quit').storagify('quitText');
+	</script>
+</body>
+</html>
